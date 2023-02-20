@@ -1,0 +1,94 @@
+body{
+    margin: 50px;
+}
+h1{
+    margin: 0;
+}
+h3{
+    margin: 5px 0;
+}
+.select-age{
+    border-top: 1px dotted black;
+    margin-bottom: 15px;
+}
+.select-age select{
+    width: 40%;
+}
+.select-money{
+    margin-bottom: 15px;
+}
+.select-money select{
+    width: 40%;
+}
+.select-sex{
+    margin-bottom: 15px;
+}
+.select-sex input{
+    margin-bottom: 10px;
+}
+.select-sex input:last-child{
+    margin-left: 25px;
+}
+.select-product{
+    margin-bottom: 15px;
+}
+.select-product input{
+    margin-bottom: 10px;
+}
+.select-often{
+    margin-bottom: 15px;
+}
+.select-often input{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.pay{
+    margin-bottom: 15px;
+}
+.pay input{
+    margin: 0;
+}
+.pay .input-1{
+    width: 60px;
+}
+.pay .input-2{
+    width: 20px;
+}
+.pay p{
+    margin: 0;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.pay p span{
+    margin-left: 42px;
+}
+.table table{
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr:first-child{
+    background-color: #ccc7c4;
+}
+table tr:nth-child(3){
+    background-color: #eee7e7;
+}
+table tr th:first-child{
+   width: 40%;
+}
+table tr th{
+    padding: 20px;
+    width: 55px;
+}
+table tr td:first-child{
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+}
+table tr td input, table tr td p{
+    margin: 5px 0;
+}
+button{
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+}

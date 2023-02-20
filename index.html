@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT2_MD1_SS2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this satisfaction survey</p>
+<div class="select-age">
+    <h3>What is your age range?</h3>
+    <select value="age">
+        <option>18-24</option>
+        <option>24-40</option>
+        <option>40-50</option>
+    </select>
+</div>
+<div class="select-money">
+    <h3>What is your age range?</h3>
+    <select value="money">
+        <option>$0 - $25,000</option>
+        <option>$25,000 - $40,000</option>
+    </select>
+</div>
+<div class="select-sex">
+    <h3>Gender Identity</h3>
+    <input type="radio" name="Male">Male <br>
+    <input type="radio" name="Female">Female <br>
+    <input type="radio" name="Nonbinary">Nonbinary <br>
+    <input type="radio" name="Other">Other <br>
+    <input type="text" name="other">
+</div>
+<div class="select-product">
+    <h3>Which of the following product have your purchased in the last 2 months. Please check all that apply</h3>
+    <input type="checkbox" name="product1">Product 1 <br>
+    <input type="checkbox" name="product2">Product 2 <br>
+    <input type="checkbox" name="product3">Product 3 <br>
+</div>
+<div class="select-often">
+    <h3>How often would you use our new product.</h3>
+    <input type="radio" name="daily">Daily <br>
+    <input type="radio" name="Weekly">Weekly <br>
+    <input type="radio" name="Monthly">Monthly <br>
+</div>
+<div class="pay">
+    <h3>What would you pay for the new product?</h3>
+    <span>$</span>
+    <input type="number" name="dollars" class="input-1">
+    <span> . </span>
+    <input type="number" name="cents" class="input-2">
+    <p>Dollars <span>Cents</span></p>
+</div>
+<div class="feature">
+    <h3>What features would you like to see in the new product.</h3>
+    <textarea cols="150" rows="8"></textarea>
+</div>
+<div class="table">
+    <p>Please rate your level of argeement with the following statements.</p>
+    <table border="1" width="88%">
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strong Agree</th>
+        </tr>
+        <tr>
+            <td>Our products are priced fairly</td>
+            <td>
+                <input type="radio" name="1">
+                <p>1</p>
+            </td>
+            <td>
+                <input type="radio" name="2">
+                <p>2</p>
+            </td>
+            <td>
+                <input type="radio" name="3">
+                <p>3</p>
+            </td>
+            <td>
+                <input type="radio" name="4">
+                <p>4</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Our products are high quality</td>
+            <td>
+                <input type="radio" name="1">
+                <p>1</p>
+            </td>
+            <td>
+                <input type="radio" name="2">
+                <p>2</p>
+            </td>
+            <td>
+                <input type="radio" name="3">
+                <p>3</p>
+            </td>
+            <td>
+                <input type="radio" name="4">
+                <p>4</p>
+            </td>
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker</td>
+            <td>
+                <input type="radio" name="1">
+                <p>1</p>
+            </td>
+            <td>
+                <input type="radio" name="2">
+                <p>2</p>
+            </td>
+            <td>
+                <input type="radio" name="3">
+                <p>3</p>
+            </td>
+            <td>
+                <input type="radio" name="4">
+                <p>4</p>
+            </td>
+        </tr>
+    </table>
+</div>
+<button type="submit">Submit</button>
+</body>
+</html>
